@@ -316,7 +316,7 @@
         <scene sceneID="T0l-qV-f1F">
             <objects>
                 <collectionViewController id="OfV-LK-bYe" customClass="ItemsGridViewController" customModule="ZenAdvisor" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="1cW-lj-xye">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="1cW-lj-xye">
                         <rect key="frame" x="0.0" y="0.0" width="384" height="512"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1002,7 +1002,7 @@
                     <toolbarItems/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="384" height="667"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Q8-wP-AjA">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="8Q8-wP-AjA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.29803921570000003" green="0.68627450980000004" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1095,7 +1095,7 @@
                     <navigationItem key="navigationItem" id="EUK-ca-heZ"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="384" height="667"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sj0-Hk-WLS">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Sj0-Hk-WLS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.94507217170000002" green="0.99593981330000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1989,7 +1989,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please provide your registered email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUV-kw-eW3">
-                                <rect key="frame" x="66" y="68" width="243.5" height="23"/>
+                                <rect key="frame" x="66.5" y="68" width="243.5" height="23"/>
                                 <fontDescription key="fontDescription" name="Monda-Bold" family="Monda" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2068,7 +2068,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfX-6t-rML">
-                                                        <rect key="frame" x="280" y="158" width="40" height="23"/>
+                                                        <rect key="frame" x="279.5" y="158" width="40" height="23"/>
                                                         <fontDescription key="fontDescription" name="Monda-Regular" family="Monda" pointSize="14"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -2463,7 +2463,7 @@
                     <toolbarItems/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="384" height="667"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xgp-M6-bs1">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="xgp-M6-bs1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.29880110069999999" green="0.68627450980000004" blue="0.30579216419999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2483,7 +2483,7 @@
                 <navigationController title="Favourite Navigation View Controller" id="qXc-ze-ibo" sceneMemberID="viewController">
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="384" height="667"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="I1g-o7-S1N">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="I1g-o7-S1N">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2593,7 +2593,7 @@
         <scene sceneID="RmK-eg-vaw">
             <objects>
                 <collectionViewController title="Favourite" id="RRU-EO-8Ow" customClass="FavouriteItemsViewController" customModule="ZenAdvisor" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="jAZ-e1-8HG">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="jAZ-e1-8HG">
                         <rect key="frame" x="0.0" y="0.0" width="384" height="512"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2646,7 +2646,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gc7-jv-d6l">
-                                                            <rect key="frame" x="92" y="4" width="37" height="23"/>
+                                                            <rect key="frame" x="92" y="4.5" width="37" height="23"/>
                                                             <fontDescription key="fontDescription" name="Monda-Regular" family="Monda" pointSize="14"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -2735,7 +2735,7 @@
         <scene sceneID="JrF-wL-b1I">
             <objects>
                 <collectionViewController storyboardIdentifier="SearchResult" title="Search Result" id="A3o-tk-ESk" customClass="SearchResultViewController" customModule="ZenAdvisor" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="5Ap-AW-ziK">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="5Ap-AW-ziK">
                         <rect key="frame" x="0.0" y="0.0" width="384" height="512"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
