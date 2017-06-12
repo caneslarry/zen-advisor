@@ -44,7 +44,7 @@ class CityListControllerViewController: UICollectionViewController, CLLocationMa
             self.locationManager.distanceFilter = 100.0;
             self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
             self.locationManager.startUpdatingLocation()
-            //self.locationManager.requestLocation()
+            self.locationManager.requestLocation()
             
         }
         //lat = Float((locationManager.location?.coordinate.latitude)!)
@@ -82,15 +82,19 @@ class CityListControllerViewController: UICollectionViewController, CLLocationMa
     
     override func viewDidAppear(_ animated: Bool) {
         updateNavigationStuff()
-        //lat = Float((locationManager.location?.coordinate.latitude)!)
+        lat = Float((locationManager.location?.coordinate.latitude)!)
         //let longitude = locationManager.location.coordinate.longitude
-        //long = Float((locationManager.location?.coordinate.longitude)!)
+        long = Float((locationManager.location?.coordinate.longitude)!)
 
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print(error)
     }
     
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
         //let userLocation:CLLocation = locations[0] as! CLLocation
-         //long = userLocation.coordinate.longitude;
+        //long = userLocation.coordinate.longitude;
         // lat = userLocation.coordinate.latitude;
         //Do What ever you want with it
     }
